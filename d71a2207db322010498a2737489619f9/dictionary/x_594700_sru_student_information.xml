@@ -4,7 +4,13 @@
         <element label="Contact" max_length="40" name="contact" type="phone_number_e164"/>
         <element attributes="edge_encryption_enabled=true" label="date of birth" max_length="40" name="date_of_birth" type="glide_date"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Department" max_length="40" name="department" type="choice">
-            <choice/>
+            <choice>
+                <element inactive_on_update="false" label="Civil" value="Civil"/>
+                <element inactive_on_update="false" label="CSE" value="CSE"/>
+                <element inactive_on_update="false" label="ECE" value="ECE"/>
+                <element inactive_on_update="false" label="EEE" value="EEE"/>
+                <element inactive_on_update="false" label="Mech" value="Mech"/>
+            </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" label="email id" max_length="40" name="email_id" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="name of the student" max_length="40" name="name_of_the_student" type="string"/>

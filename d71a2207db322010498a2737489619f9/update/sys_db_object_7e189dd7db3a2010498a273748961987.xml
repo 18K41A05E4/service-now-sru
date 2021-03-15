@@ -6,15 +6,15 @@
         <caller_access/>
         <client_scripts_access>true</client_scripts_access>
         <configuration_access>true</configuration_access>
-        <create_access>true</create_access>
-        <create_access_controls>false</create_access_controls>
-        <delete_access>true</delete_access>
+        <create_access>false</create_access>
+        <create_access_controls>true</create_access_controls>
+        <delete_access>false</delete_access>
         <extension_model/>
         <is_extendable>true</is_extendable>
-        <label>Student Information</label>
+        <label>faculty information</label>
         <live_feed_enabled>false</live_feed_enabled>
-        <name>x_594700_sru_student_information</name>
-        <number_ref display_value="STU">589bee47db322010498a27374896192c</number_ref>
+        <name>x_594700_sru_faculty_information</name>
+        <number_ref/>
         <provider_class/>
         <read_access>true</read_access>
         <scriptable_table>false</scriptable_table>
@@ -23,18 +23,18 @@
         <sys_class_name>sys_db_object</sys_class_name>
         <sys_class_path/>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-03-14 16:24:46</sys_created_on>
-        <sys_id>ff8bae47db322010498a2737489619b4</sys_id>
-        <sys_mod_count>4</sys_mod_count>
-        <sys_name>Student Information</sys_name>
+        <sys_created_on>2021-03-15 05:10:41</sys_created_on>
+        <sys_id>7e189dd7db3a2010498a273748961987</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>faculty information</sys_name>
         <sys_package display_value="SRU" source="x_594700_sru">d71a2207db322010498a2737489619f9</sys_package>
         <sys_policy/>
         <sys_scope display_value="SRU">d71a2207db322010498a2737489619f9</sys_scope>
-        <sys_update_name>sys_db_object_ff8bae47db322010498a2737489619b4</sys_update_name>
+        <sys_update_name>sys_db_object_7e189dd7db3a2010498a273748961987</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-03-15 05:47:50</sys_updated_on>
+        <sys_updated_on>2021-03-15 05:29:34</sys_updated_on>
         <update_access>true</update_access>
-        <user_role/>
+        <user_role display_value="x_594700_sru.faculty_information_user" name="x_594700_sru.faculty_information_user">93da1d1bdb3a2010498a273748961966</user_role>
         <ws_access>true</ws_access>
     </sys_db_object>
 </record_update>
